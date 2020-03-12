@@ -1,0 +1,94 @@
+/* MOBILE */
+@media screen and (max-aspect-ratio: 3/3) {
+    .nav-menu{
+        display:none;
+    }
+
+    .skill{
+        width: 12em;
+        height: 12em;
+    }
+
+    .skill > img{
+        width: 4em;
+    }
+
+    .skill > .small{
+        display: none;
+    }
+
+    .skill > p{
+        font-size: 2em;
+    }
+    .one-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inst{
+        width: 30%;
+
+    }
+    .desc{
+        width: 70%;
+    }
+
+    .experience{
+        margin: 0;
+        padding: 0;
+    }
+
+    table{
+        width: 100%;
+    }
+    .about-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    .desc-me{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .photo{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photo > img{
+        width: 100%;
+    }
+
+    .img{
+        display: none;
+    }
+    .mobile-q{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 16em;
+        background-color: #44cc44;
+    }
+
+    .mobile-q > p{
+        color: #fff;
+        font-size: 2em;
+        margin: 1em;
+        margin-bottom: 0.5em;
+        padding: 0;
+    }
+
+    .mobile-q p.author{
+        font-size: 1.5em;
+        text-align: right;
+        margin-top: 0;
+    }
+
+}
